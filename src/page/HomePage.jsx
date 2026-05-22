@@ -12,7 +12,7 @@ const HomePage = () => {
       <div className="container mt-5">
         <div className="row">
           <div className="col-md-8 text-color">
-            <h1>Welcome to Online Banking System</h1>
+            <h1>Welcome to TAJ Banking System</h1>
             <p>
               Welcome to our cutting-edge Online Banking System, where financial
               empowerment meets technological innovation. Seamlessly navigate
