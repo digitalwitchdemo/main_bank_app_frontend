@@ -36,3 +36,8 @@
     transform: rotate(360deg);
   }
 }
+.contact-page-bg {
+  background: linear-gradient(135deg, #fff8e6 0%, #ffffff 45%, #f4ead2 100%);
+  min-height: 100vh;
+  padding: 60px 0;
+}
