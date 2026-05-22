@@ -12,23 +12,20 @@ const HomePage = () => {
       <div className="container mt-5">
         <div className="row">
           <div className="col-md-8 text-color">
-            <h1>Welcome to TAJ Banking System</h1>
+            <h1>Modern Banking Built for Everyday Financial Confidence</h1>
             <p>
-              Welcome to our cutting-edge Online Banking System, where financial
-              empowerment meets technological innovation. Seamlessly navigate
-              through your financial journey with ease, as you initiate secure
-              transactions, conveniently deposit funds into your accounts, and
-              effortlessly withdraw when needed.
-            </p>
+  TAJ Banking provides a secure and convenient digital banking experience for customers
+  who want fast access to their accounts, smooth transactions, and reliable financial
+  services from anywhere.
+</p>
             <p>
-              Our user-friendly interface ensures a smooth and intuitive
-              experience, giving you full control over your finances from the
-              comfort of your own device. With advanced security measures in
-              place, you can trust that your sensitive information is
-              safeguarded throughout every interaction. Join us on this digital
-              financial expedition and unlock a new era of banking convenience
-              and confidence.
-            </p>
+  Customers can manage account information, view banking records, deposit funds,
+  withdraw money, and complete transfers through a simple and responsive online platform.
+</p>
+<p>
+  Behind the interface, the system is designed with cloud-ready banking principles in mind:
+  secure access, reliable infrastructure, transaction visibility, and scalable service delivery.
+</p>
             <Link to="/user/login" className="btn bg-color custom-bg-text">
               Get Started
             </Link>
