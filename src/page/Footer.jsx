@@ -1,163 +1,55 @@
 import { Link } from "react-router-dom";
+
 const Footer = () => {
   return (
-    <div>
-      <div class="container my-5">
-        <footer class="text-center text-lg-start text-color">
-          <div class="container-fluid p-4 pb-0">
-            <section class="">
-              <div class="row">
-                <div class="col-lg-4 col-md-6 mb-4 mb-md-0">
-                  <h5 class="text-uppercase text-color">
-                    Online Banking System
-                  </h5>
-
-                  <p>
-                    Seamlessly navigate through your financial journey with
-                    ease, as you initiate secure transactions, conveniently
-                    deposit funds into your accounts, and effortlessly withdraw
-                    when needed.
-                  </p>
-                </div>
-
-                <div class="col-lg-2 col-md-6 mb-4 mb-md-0">
-                  <h5 class="text-uppercase text-color-4">About us</h5>
-
-                  <ul class="list-unstyled mb-0">
-                    <li>
-                      <a href="#!" class="text-color">
-                        Link 1
-                      </a>
-                    </li>
-                    <li>
-                      <a href="#!" class="text-color">
-                        Link 2
-                      </a>
-                    </li>
-                    <li>
-                      <a href="#!" class="text-color">
-                        Link 3
-                      </a>
-                    </li>
-                    <li>
-                      <a href="#!" class="text-color">
-                        Link 4
-                      </a>
-                    </li>
-                  </ul>
-                </div>
-
-                <div class="col-lg-2 col-md-6 mb-4 mb-md-0">
-                  <h5 class="text-uppercase text-color-4">Contact us</h5>
-
-                  <ul class="list-unstyled mb-0">
-                    <li>
-                      <a href="#!" class="text-color">
-                        Link 1
-                      </a>
-                    </li>
-                    <li>
-                      <a href="#!" class="text-color">
-                        Link 2
-                      </a>
-                    </li>
-                    <li>
-                      <a href="#!" class="text-color">
-                        Link 3
-                      </a>
-                    </li>
-                    <li>
-                      <a href="#!" class="text-color">
-                        Link 4
-                      </a>
-                    </li>
-                  </ul>
-                </div>
-
-                <div class="col-lg-2 col-md-6 mb-4 mb-md-0">
-                  <h5 class="text-uppercase text-color-4">Careers</h5>
-
-                  <ul class="list-unstyled mb-0">
-                    <li>
-                      <a href="#!" class="text-color">
-                        Link 1
-                      </a>
-                    </li>
-                    <li>
-                      <a href="#!" class="text-color">
-                        Link 2
-                      </a>
-                    </li>
-                    <li>
-                      <a href="#!" class="text-color">
-                        Link 3
-                      </a>
-                    </li>
-                    <li>
-                      <a href="#!" class="text-color">
-                        Link 4
-                      </a>
-                    </li>
-                  </ul>
-                </div>
-
-                <div class="col-lg-2 col-md-6 mb-4 mb-md-0">
-                  <h5 class="text-uppercase text-color-4">Links</h5>
-
-                  <ul class="list-unstyled mb-0">
-                    <li>
-                      <a href="#!" class="text-color">
-                        Link 1
-                      </a>
-                    </li>
-                    <li>
-                      <a href="#!" class="text-color">
-                        Link 2
-                      </a>
-                    </li>
-                    <li>
-                      <a href="#!" class="text-color">
-                        Link 3
-                      </a>
-                    </li>
-                    <li>
-                      <a href="#!" class="text-color">
-                        Link 4
-                      </a>
-                    </li>
-                  </ul>
-                </div>
-              </div>
-            </section>
-
-            <hr class="mb-4" />
-
-            <section class="">
-              <p class="d-flex justify-content-center align-items-center">
-                <span class="me-3 text-color">Login from here</span>
-                <Link to="/user/login" class="active">
-                  <button
-                    type="button"
-                    class="btn btn-outline-light btn-rounded bg-color custom-bg-text"
-                  >
-                    Log in
-                  </button>
-                </Link>
-              </p>
-            </section>
-
-            <hr class="mb-4" />
+    <footer className="taj-footer">
+      <div className="container">
+        <div className="row gy-4">
+          <div className="col-md-4">
+            <h3>TAJ Banking</h3>
+            <p>
+              A modern digital banking platform built to provide secure account
+              access, seamless transactions, and reliable financial services for
+              everyday customers.
+            </p>
           </div>
 
-          <div class="text-center">
-            © 2022 Copyright:
-            <a class="text-color-3" href="https://codewithmurad.com/">
-              codewithmurad.com
-            </a>
+          <div className="col-md-2">
+            <h5>Company</h5>
+            <Link to="/aboutus">About Us</Link>
+            <Link to="/contactus">Contact Us</Link>
+            <Link to="/user/login">Login</Link>
           </div>
-        </footer>
+
+          <div className="col-md-2">
+            <h5>Services</h5>
+            <span>Account Management</span>
+            <span>Fund Transfers</span>
+            <span>Transaction Records</span>
+          </div>
+
+          <div className="col-md-2">
+            <h5>Security</h5>
+            <span>Secure Access</span>
+            <span>Fraud Awareness</span>
+            <span>Data Protection</span>
+          </div>
+
+          <div className="col-md-2">
+            <h5>Support</h5>
+            <span>support@tajbanking.com</span>
+            <span>+234 000 000 0000</span>
+            <span>Abuja, Nigeria</span>
+          </div>
+        </div>
+
+        <div className="footer-bottom">
+          <p>
+            © 2026 TAJ Banking. Built for POD 6 banking application project.
+          </p>
+        </div>
       </div>
-    </div>
+    </footer>
   );
 };
 
