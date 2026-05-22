@@ -12,7 +12,7 @@ const HomePage = () => {
       <div className="container mt-5">
         <div className="row">
           <div className="col-md-8 text-color">
-            <h1>Modern Banking Built for Everyday Financial Confidence</h1>
+            <h1>Banking Services Designed for Modern Customers</h1>
             <p>
   TAJ Banking provides a secure and convenient digital banking experience for customers
   who want fast access to their accounts, smooth transactions, and reliable financial

@@ -1,7 +1,4 @@
-
-import carousel from "../images/banking_slider.png";
-import carousel2 from "../images/banking_slider2.png";
-import carousel3 from "../images/banking_slider3.png";
+import tajBanner from "../images/taj_banking_banner.png";
 
 const Carousel = () => {
   return (
@@ -34,13 +31,13 @@ const Carousel = () => {
       </div>
       <div className="carousel-inner">
         <div className="carousel-item active">
-          <img src={carousel} className="d-block w-100" alt="..." />
+          <img src={tajBanner} className="d-block w-100" alt="TAJ Banking digital banking banner" />
         </div>
         <div className="carousel-item">
-          <img src={carousel2} className="d-block w-100" alt="..." />
+          <img src={tajBanner} className="d-block w-100" alt="TAJ Banking digital banking banner" />
         </div>
         <div className="carousel-item">
-          <img src={carousel3} className="d-block w-100" alt="..." />
+          <img src={tajBanner} className="d-block w-100" alt="TAJ Banking digital banking banner" />
         </div>
       </div>
       <button
