@@ -1,83 +1,94 @@
 import Carousel from "./Carousel";
 import Footer from "./Footer";
 import { Link } from "react-router-dom";
-import travel_1 from "../images/banking_image3.png";
-import travel_2 from "../images/banking_image2.png";
+import travel_1 from "../images/modern_banking_illustration1.png";
+import travel_2 from "../images/modern_banking_illustration2.png";
 
 const HomePage = () => {
   return (
-    <div className="container-fluid mb-2">
-      <Carousel />
+    <div>
+      <div className="container-fluid mb-2">
+        <Carousel />
+      </div>
 
-      <div className="container mt-5">
-        <div className="row">
+      <div className="container mt-5 home-modern-section">
+        <div className="row align-items-center g-5">
           <div className="col-md-8 text-color">
-            <h1>Welcome to Online Banking System</h1>
+            <span className="home-feature-pill">SMART DIGITAL BANKING</span>
+
+            <h1>Banking Services Designed for Modern Customers</h1>
+
             <p>
-              Welcome to our cutting-edge Online Banking System, where financial
-              empowerment meets technological innovation. Seamlessly navigate
-              through your financial journey with ease, as you initiate secure
-              transactions, conveniently deposit funds into your accounts, and
-              effortlessly withdraw when needed.
+              TAJ Banking provides a secure and convenient digital banking
+              experience for customers who want fast access to their accounts,
+              smooth transactions, and reliable financial services from anywhere.
             </p>
+
             <p>
-              Our user-friendly interface ensures a smooth and intuitive
-              experience, giving you full control over your finances from the
-              comfort of your own device. With advanced security measures in
-              place, you can trust that your sensitive information is
-              safeguarded throughout every interaction. Join us on this digital
-              financial expedition and unlock a new era of banking convenience
-              and confidence.
+              Customers can manage account information, view banking records,
+              deposit funds, withdraw money, and complete transfers through a
+              simple and responsive online platform.
             </p>
+
+            <p>
+              Behind the interface, the system is designed with cloud-ready
+              banking principles in mind: secure access, reliable infrastructure,
+              transaction visibility, and scalable service delivery.
+            </p>
+
             <Link to="/user/login" className="btn bg-color custom-bg-text">
               Get Started
             </Link>
           </div>
-          <div className="col-md-4">
+
+          <div className="col-md-4 d-flex align-items-center">
             <img
               src={travel_2}
-              alt="Logo"
-              width="400"
-              height="auto"
-              className="home-image"
+              className="img-fluid"
+              alt="Modern digital banking dashboard"
             />
           </div>
         </div>
+      </div>
 
-        <div className="row mt-5">
-          <div className="col-md-4">
+      <div className="container mt-5 home-modern-section">
+        <div className="row align-items-center g-5">
+          <div className="col-md-5">
             <img
               src={travel_1}
-              alt="Logo"
-              width="400"
-              height="auto"
-              className="home-image"
+              className="img-fluid"
+              alt="Secure digital banking interface"
             />
           </div>
-          <div className="col-md-8 text-color">
-            <h1 className="ms-5">Experience Effortless Financial Management</h1>
-            <p className="ms-5">
-              Discover a new level of financial control through our intuitive
-              Online Banking System. Seamlessly manage transactions, deposits,
-              and withdrawals with a user-friendly interface designed to
-              simplify your banking experience. Whether you're transferring
-              funds, depositing savings, or making withdrawals, our platform
-              ensures security and convenience at every step.
+
+          <div className="col-md-7 text-color">
+            <span className="home-feature-pill">EFFORTLESS BANKING</span>
+
+            <h1>Experience Effortless Financial Management</h1>
+
+            <p>
+              Manage your banking activities with a simple and secure digital
+              experience designed for everyday customers.
             </p>
-            <p className="ms-5">
-              Empower yourself with effortless financial management and enjoy
-              the freedom to take charge of your accounts from the comfort of
-              your own device. Join us in revolutionizing the way you interact
-              with your finances, as we pave the way for a more streamlined and
-              secure banking future.
+
+            <p>
+              From transfers and deposits to withdrawals and transaction
+              tracking, TAJ Banking helps customers stay in control of their
+              financial activities from one convenient platform.
             </p>
-            <Link to="/user/login" className="btn bg-color custom-bg-text ms-5">
+
+            <p>
+              The system is built to support speed, visibility, and ease of use,
+              making digital banking more reliable and accessible.
+            </p>
+
+            <Link to="/user/login" className="btn bg-color custom-bg-text">
               Get Started
             </Link>
           </div>
         </div>
       </div>
-      <hr />
+
       <Footer />
     </div>
   );

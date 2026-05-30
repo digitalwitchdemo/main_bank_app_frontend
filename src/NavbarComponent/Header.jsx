@@ -16,7 +16,7 @@ const Header = () => {
           />
           <Link to="/" className="navbar-brand">
             <i>
-              <b className="text-color ms-1">Online Banking System</b>
+              <b className="text-color ms-1">TAJ Banking</b>
             </i>
           </Link>
 
